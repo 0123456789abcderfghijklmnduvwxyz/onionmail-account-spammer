@@ -12,3 +12,5 @@ python onionmail_creator.py --mode=direct --browser=firefox --headless=False --s
 You can also use proxies but i dont recommend doing that, because tor is just better for this. Out of 1000 accounts this script created about 990, and the other 10 failed, so the success rate is pretty high. 
 
 It saves all the accounts in onionmail_accounts.txt like this username:password, you can extract it yourself or if i have written a script that depends on this you can run that one, because i will probably make it compatible with this.
+
+Also for this to work you need to install tor browser, and then start the tor service or if you are on windows just search for tor.exe in the search menu and start that and keep it open
